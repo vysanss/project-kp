@@ -47,7 +47,7 @@
                   <div class="flex justify-center lg:justify-start">
                     <div class="relative">
                       <div class="w-32 h-32 lg:w-40 lg:h-40 rounded-full bg-white/20 backdrop-blur-sm border-4 border-white/30 overflow-hidden shadow-2xl">
-                        <img src="/img/kepala-satpol.jpg" alt="Kepala Satpol PP" class="w-full h-full object-cover" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgdmlld0JveD0iMCAwIDE2MCAxNjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNjAiIGhlaWdodD0iMTYwIiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjgwIiBjeT0iNjQiIHI9IjI0IiBmaWxsPSIjOUI5QkE0Ii8+CjxwYXRoIGQ9Ik04MCA5NkMxMDQuNTUgOTYgMTI0IDEwOC41NCAxMjQgMTI0VjE0MEg2NFYxMjRDNjQgMTA4LjU0IDc5LjQ1IDk2IDk2IDk2IiBmaWxsPSIjOUI5QkE0Ii8+Cjwvc3ZnPgo='">
+                        <img src="/img/kepala-satpol.jpg" alt="Kepala Satpol PP" class="w-full h-full object-cover" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgdmlld0JveD0iMCAwIDE2MCAxNjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNjAiIGhlaWdodD0iMTYwIiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjgwIiBjeT0iNjQiIHI9IjI0IiBmaWxsPSIjOUI5QkE0Ii8+CjxwYXRoIGQ9Ik08MCA5NkMxMDQuNTUgOTYgMTI0IDEwOC41NCAxMjQgMTI0VjE0MEg2NFYxMjRDNjQgMTA4LjU0IDc5LjQ1IDk2IDk2IDk2IiBmaWxsPSIjOUI5QkE0Ii8+Cjwvc3ZnPgo='">
                       </div>
                       <!-- Decorative Ring -->
                       <div class="absolute inset-0 rounded-full border-2 border-white/40 animate-pulse"></div>
@@ -118,15 +118,15 @@
               </a>
 
               <!-- Struktur Organisasi - Medium Card -->
-              <a href="{{ url('/strukturorganisasi') }}" class="col-span-6 md:col-span-3 lg:col-span-3 rounded-2xl shadow-lg bg-gradient-to-br from-indigo-400 to-purple-600 hover:from-indigo-500 hover:to-purple-700 transition-all duration-300 hover:shadow-xl p-6 flex flex-col justify-center text-center group relative overflow-hidden">
+              <a href="{{ url('/strukturorganisasi') }}" class="col-span-6 md:col-span-3 lg:col-span-3 rounded-2xl shadow-lg bg-gradient-to-br from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 transition-all duration-300 hover:shadow-xl p-6 flex flex-col justify-center text-center group relative overflow-hidden">
                 <div class="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -mr-10 -mt-10"></div>
                 <div class="relative z-10">
-                  <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mt-2 mb-2 group-hover:scale-110 transition-transform">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                     </svg>
                   </div>
-                  <h3 class="font-bold text-white mb-2 text-lg">Struktur Organisasi</h3>
+                  <h3 class="font-bold text-white mb-0 text-lg">Struktur Organisasi</h3>
                   <p class="text-white/80 text-sm">
                     Hierarki kepemimpinan dan struktur organisasi
                   </p>
@@ -134,7 +134,7 @@
               </a>
 
               <!-- Berita - Tall Card (Made taller to match Tentang Kami) -->
-              <a href="{{ url('/berita') }}" class="col-span-6 md:col-span-3 lg:col-span-4 row-span-2 rounded-2xl shadow-lg bg-gradient-to-b from-orange-400 to-red-500 hover:from-orange-500 hover:to-red-600 transition-all duration-300 hover:shadow-xl p-6 flex flex-col justify-between group relative overflow-hidden">
+              <a href="{{ url('/berita') }}" class="col-span-6 md:col-span-3 lg:col-span-4 row-span-2 rounded-2xl shadow-lg bg-gradient-to-br from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 transition-all duration-300 hover:shadow-xl p-6 flex flex-col justify-between group relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-20 h-20 bg-white/10 rounded-full -ml-10 -mt-10"></div>
                 <div class="relative z-10">
                   <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
@@ -158,15 +158,15 @@
               </a>
 
               <!-- Tupoksi - Medium Card -->
-              <a href="{{ url('/tupoksi') }}" class="col-span-6 md:col-span-3 lg:col-span-3 rounded-2xl shadow-lg bg-gradient-to-br from-cyan-400 to-teal-600 hover:from-cyan-500 hover:to-teal-700 transition-all duration-300 hover:shadow-xl p-6 flex flex-col justify-center text-center group relative overflow-hidden">
+              <a href="{{ url('/tupoksi') }}" class="col-span-6 md:col-span-3 lg:col-span-3 rounded-2xl shadow-lg bg-gradient-to-br from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 transition-all duration-300 hover:shadow-xl p-6 flex flex-col justify-center text-center group relative overflow-hidden">
                 <div class="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full -ml-12 -mb-12"></div>
                 <div class="relative z-10">
-                  <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mt-2 mb-2 group-hover:scale-110 transition-transform">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                     </svg>
                   </div>
-                  <h3 class="font-bold text-white mb-2 text-lg">Tupoksi</h3>
+                  <h3 class="font-bold text-white mb-0 text-lg">Tupoksi</h3>
                   <p class="text-white/80 text-sm">
                     Tugas pokok dan fungsi serta wewenang Satpol PP
                   </p>
@@ -174,7 +174,7 @@
               </a>
 
               <!-- Artikel - Wide Card -->
-              <a href="{{ url('/artikel') }}" class="col-span-12 md:col-span-6 lg:col-span-5 rounded-2xl shadow-lg bg-gradient-to-r from-emerald-400 to-green-600 hover:from-emerald-500 hover:to-green-700 transition-all duration-300 hover:shadow-xl p-6 flex items-center group relative overflow-hidden">
+              <a href="{{ url('/artikel') }}" class="col-span-12 md:col-span-6 lg:col-span-5 rounded-2xl shadow-lg bg-gradient-to-br from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 transition-all duration-300 hover:shadow-xl p-6 flex items-center group relative overflow-hidden">
                 <div class="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
                 <div class="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform flex-shrink-0">
                   <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -190,7 +190,7 @@
               </a>
               
               <!-- Layanan - Wide Card (Made wider to align with Artikel) -->
-                <a href="{{ url('/layanan') }}" class="col-span-12 md:col-span-12 lg:col-span-7 rounded-2xl shadow-lg bg-gradient-to-r from-purple-400 to-pink-500 hover:from-purple-500 hover:to-pink-600 transition-all duration-300 hover:shadow-xl p-6 flex items-center group relative overflow-hidden">
+              <a href="{{ url('/layanan') }}" class="col-span-12 md:col-span-12 lg:col-span-7 rounded-2xl shadow-lg bg-gradient-to-br from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 transition-all duration-300 hover:shadow-xl p-6 flex items-center group relative overflow-hidden">
                 <div class="absolute bottom-0 right-0 w-20 h-20 bg-white/10 rounded-full -mr-10 -mb-10"></div>
                 <div class="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform flex-shrink-0">
                   <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
