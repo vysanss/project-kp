@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="id" class="h-full bg-gray-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Artikel - Satpol PP Tasikmalaya</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Kumpulan artikel, opini, dan edukasi seputar Satpol PP Tasikmalaya">
+    <meta name="keywords" content="Artikel, Opini, Edukasi, Satpol PP, Tasikmalaya">
+    <meta name="author" content="Satpol PP Tasikmalaya">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Artikel - Satpol PP Tasikmalaya">
+    <meta property="og:description" content="Kumpulan artikel, opini, dan edukasi seputar Satpol PP Tasikmalaya">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url('/artikel') }}">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    
+    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="h-full">
+    <div class="min-h-full">
+        <x-navbar />
+        
+        <main>
+            <!-- Breadcrumb Section -->
+            <div class="relative bg-gradient-to-br from-[#0D0D8C] to-[#2020a9] text-white py-12 container mx-auto max-w-6xl rounded-2xl shadow-xl overflow-hidden mt-6 h-80">
+                
+                <div class="relative px-6 lg:px-12 h-full flex flex-col justify-center z-10">
+                    <!-- Breadcrumb -->
+                    <div class="flex items-center justify-center lg:justify-start mb-6 hidden md:flex" aria-label="breadcrumb">
+                        <div class="flex items-center space-x-3 bg-white/10 backdrop-blur-sm rounded-full px-5 py-2 border border-white/20">
+                            <a href="{{ url('/') }}" class="flex items-center space-x-2 text-gray-200 hover:text-white transition-all duration-300 group">
+                                <div class="p-1.5 bg-white/20 rounded-full group-hover:bg-white/40 transition-all duration-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3 h-3">
+                                        <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
+                                        <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                    </svg>
+                                </div>
+                                <span class="font-medium text-sm">Beranda</span>
+                            </a>
+                            <div class="w-px h-4 bg-gray-300"></div>
+                            <span class="text-white font-medium text-sm">Artikel</span>
+                        </div>
+                    </div>
+
+                    <!-- Hero Title Section -->
+                    <div class="text-center lg:text-left max-w-4xl mx-auto lg:mx-0">
+                        <div class="mb-4">
+                            <h1 class="text-2xl lg:text-4xl font-black mb-2 leading-tight tracking-tight">
+                                <span class="block text-white">Artikel & Edukasi</span>
+                                <span class="block text-yellow-300 animate-pulse">
+                                    Satpol PP Tasikmalaya
+                                </span>
+                            </h1>
+                        </div>
+
+                        <!-- Subtitle with Icon -->
+                        <div class="flex items-center justify-center lg:justify-start space-x-4 mb-4">
+                            <div class="flex items-center space-x-3 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2 border border-white/20">
+                                <div class="p-1.5 bg-yellow-300/20 rounded-full hidden md:block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-yellow-300">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14,2 14,8 20,8"></polyline>
+                                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                                        <polyline points="10,9 9,9 8,9"></polyline>
+                                    </svg>
+                                </div>
+                                <p class="text-sm lg:text-base text-gray-200 font-medium">
+                                    Satuan Polisi Pamong Praja Kota Tasikmalaya
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Background Pattern - Moved to top layer -->
+                <div class="absolute inset-0 opacity-30 z-20 pointer-events-none">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-yellow-200/50 rounded-full -translate-y-16 translate-x-16"></div>
+                    <div class="absolute bottom-0 left-0 w-24 h-24 bg-yellow-300/40 rounded-full translate-y-12 -translate-x-12"></div>
+                    <div class="absolute top-1/2 left-1/4 w-16 h-16 bg-yellow-200/60 rounded-full transform -translate-y-1/2 animate-pulse"></div>
+                    <div class="absolute bottom-1/4 right-1/3 w-12 h-12 bg-yellow-400/50 rounded-full animate-pulse animation-delay-2000"></div>
+                </div>
+            </div>
+
+            <!-- Article Content Section -->
+            <section class="py-12 bg-gray-50">
+                <div class="container mx-auto max-w-6xl px-4">
+                    <!-- Search and Filter Form -->
+                    <form method="GET" action="{{ url('/artikel') }}">
+                        <!-- Category Filter -->
+                        <x-infocategory />
+                        <!-- Search and Year Filter -->
+                        <div class="flex flex-col md:flex-row gap-4 items-center justify-center mb-6">
+                            <div class="relative w-full">
+                                <input type="text" name="search" value="{{ request('search') }}" placeholder="Cari artikel..." class="w-full px-4 py-3 pr-11 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0D0D8C] focus:border-[#0D0D8C] transition" autocomplete="off">
+                                <div class="absolute inset-y-0 right-0 flex items-center pr-3">
+                                    <button type="submit" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#0D0D8C] text-white px-4 py-2 rounded-md hover:bg-[#2020a9] transition-all duration-300 shadow-md cursor-pointer">
+                                        Cari
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <select name="year" class="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0D0D8C] focus:border-[#0D0D8C]">
+                                    <option value="">Semua Tahun</option>
+                                    @php
+                                        $currentYear = date('Y');
+                                    @endphp
+                                    @for($year = $currentYear; $year >= 2020; $year--)
+                                        <option value="{{ $year }}" {{ request('year') == $year ? 'selected' : '' }}>{{ $year }}</option>
+                                    @endfor
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Article Grid -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="article-grid">
+                        {{-- Sample article cards --}}
+                        @php
+                            $sampleArticles = [
+                                ['title' => 'Peran Satpol PP dalam Menjaga Ketertiban Umum', 'category' => 'Edukasi', 'excerpt' => 'Memahami tugas dan fungsi Satpol PP dalam menjaga ketertiban dan keamanan di lingkungan masyarakat.'],
+                                ['title' => 'Tips Edukasi Hukum untuk Warga Kota', 'category' => 'Tips', 'excerpt' => 'Pentingnya edukasi hukum agar masyarakat lebih sadar akan aturan dan peraturan daerah.'],
+                                ['title' => 'Analisis Penegakan Perda di Era Digital', 'category' => 'Analisa', 'excerpt' => 'Bagaimana teknologi membantu penegakan Peraturan Daerah di era modern.'],
+                                ['title' => 'Kolaborasi Satpol PP dengan Instansi Lain', 'category' => 'Opini', 'excerpt' => 'Pentingnya sinergi Satpol PP dengan berbagai instansi untuk pelayanan publik yang lebih baik.'],
+                                ['title' => 'Strategi Sosialisasi Perda yang Efektif', 'category' => 'Tips', 'excerpt' => 'Metode-metode efektif dalam menyosialisasikan Peraturan Daerah kepada masyarakat.'],
+                                ['title' => 'Penanganan PKL yang Humanis dan Berkeadilan', 'category' => 'Edukasi', 'excerpt' => 'Pendekatan humanis dalam penanganan Pedagang Kaki Lima demi terciptanya keharmonisan.'],
+                                ['title' => 'Transformasi Digital Satpol PP Tasikmalaya', 'category' => 'Analisa', 'excerpt' => 'Analisis perubahan dan inovasi dalam pelayanan Satpol PP di era digitalisasi.'],
+                                ['title' => 'Membangun Kesadaran Hukum Masyarakat', 'category' => 'Opini', 'excerpt' => 'Pentingnya membangun kesadaran hukum sejak dini untuk menciptakan masyarakat yang tertib.'],
+                                ['title' => 'Panduan Melaporkan Pelanggaran Perda', 'category' => 'Tips', 'excerpt' => 'Langkah-langkah yang dapat dilakukan masyarakat untuk melaporkan pelanggaran Peraturan Daerah.']
+                            ];
+                        @endphp
+                        
+                        @foreach($sampleArticles as $index => $article)
+                        <article class="article-card bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group">
+                            <div class="relative overflow-hidden">
+                                <img src="{{ asset('img/placeholder-news.jpg') }}" 
+                                     alt="{{ $article['title'] }}" 
+                                     class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex items-center gap-2 mb-3">
+                                    <span class="px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full group-hover:bg-green-200 transition-colors duration-300">{{ $article['category'] }}</span>
+                                    <span class="text-xs text-gray-500 group-hover:text-gray-600 transition-colors duration-300">{{ now()->subDays($index + 1)->format('l, d F Y') }}</span>
+                                </div>
+                                <h3 class="font-bold text-gray-800 mb-2 line-clamp-2 group-hover:text-[#0D0D8C] transition-colors duration-300">
+                                    {{ $article['title'] }}
+                                </h3>
+                                <p class="text-gray-600 text-sm mb-4 line-clamp-3 group-hover:text-gray-700 transition-colors duration-300">
+                                    {{ $article['excerpt'] }}
+                                </p>
+                                <div class="flex items-center justify-between">
+                                    <a href="#" class="inline-flex items-center text-[#0D0D8C] hover:text-[#2020a9] font-semibold text-sm group/link transition-colors duration-300">
+                                        Baca Selengkapnya
+                                        <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        @endforeach
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="flex justify-center items-center mt-10 space-x-2" id="pagination">
+                        <a href="#" class="pagination-btn px-3 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 opacity-50 pointer-events-none">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                            </svg>
+                        </a>
+                        @for($page = 1; $page <= 3; $page++)
+                        <a href="#" class="pagination-btn px-4 py-2 rounded-lg {{ $page == 1 ? 'bg-[#0D0D8C] text-white' : 'border border-gray-300 hover:bg-gray-50' }}">
+                            {{ $page }}
+                        </a>
+                        @endfor
+                        <a href="#" class="pagination-btn px-3 py-2 border border-gray-300 rounded-lg hover:bg-gray-50">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <x-footer />
+
+    <script>
+        // Auto scroll to top on page load/refresh
+        window.addEventListener('load', function() {
+            window.scrollTo(0, 0);
+        });
+        
+        // Scroll to top before page unload (for refresh)
+        window.addEventListener('beforeunload', function() {
+            window.scrollTo(0, 0);
+        });
+        
+        // Force scroll to top immediately
+        if (history.scrollRestoration) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+    </script>
+
+    <style>
+        .animation-delay-2000 {
+            animation-delay: 2s;
+        }
+
+        .filter-tab {
+            background-color: #e5e7eb; 
+            color: #374151;         
+            transition: all 0.2s;
+        }
+        .filter-tab:hover {
+            background-color: #d1d5db;
+            color: #222;
+        }
+        .filter-tab.active {
+            background-color: #0D0D8C;
+            color: #fff;
+        }
+        .filter-tab.active:hover {
+            background-color: #2020a9;
+            color: #fff;
+        }
+
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    </style>
+</body>
+</html>
